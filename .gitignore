@@ -24,3 +24,7 @@ vignettes/*.pdf
 *.DS_Store
 
 ConnectionToDB.R
+
+*.Rproj
+*.rxproj
+*.sln
