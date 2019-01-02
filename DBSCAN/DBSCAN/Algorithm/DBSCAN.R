@@ -1,7 +1,9 @@
+
 # Find all points in dataset `D` within distance `eps` of point `P`.
 # This function calculates the distance between a point P and every other
 # point in the dataset, and then returns only those points which are within a
 # threshold distance `eps`.
+
 regionQuery = function(D, P, eps) {
 
     neighbors = c()
@@ -101,7 +103,6 @@ DBSCAN = function(D, eps, minPts) {
 
     # C is the ID of the current cluster.
     C = 0
-
 
     for (j in 1:dim(D)[1]) {
 
